@@ -17,5 +17,16 @@ body {
     background: var(--primary-color);
     color: var(--secondary-color) ;
     overflow-x: hidden;
+}
 
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 7%;
+    background: yellowgreen;
+    display: flex;
+    align-items: center;
+    z-index: 100;
 }
