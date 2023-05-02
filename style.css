@@ -30,3 +30,31 @@ body {
     align-items: center;
     z-index: 100;
 }
+
+.navbar a {
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-right: 35px;
+}
+
+.navbar a.active::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #fff;
+}
+
+.toggle {
+    display: flex;
+    background: red;
+    margin-top: 1px;
+    cursor: pointer;
+}
+.toggle .toggle-icon {
+    font-size: 24px;
+    color: #fff;
+}
