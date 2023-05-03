@@ -49,7 +49,7 @@ body {
     margin-right: 35px;
 }
 
-.navbar a.active::before{
+.navbar a.active::before {
     content: '';
     position: absolute;
     left: 0;
