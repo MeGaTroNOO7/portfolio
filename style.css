@@ -61,7 +61,6 @@ body {
 
 .toggle {
     display: flex;
-    background: red;
     margin-top: 1px;
     cursor: pointer;
 }
