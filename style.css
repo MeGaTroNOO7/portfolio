@@ -76,3 +76,7 @@ body {
     align-items: center;
     padding: 60px 7% 0;
 }
+
+.home .home-content {
+    max-width: 440px;
+}
