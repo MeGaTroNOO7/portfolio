@@ -80,3 +80,12 @@ body {
 .home .home-content {
     max-width: 440px;
 }
+
+.home-content h3 {
+    font-size: 32px;
+}
+
+.home-content h1 {
+    font-size: 56px;
+    font-weight: 700;
+}
