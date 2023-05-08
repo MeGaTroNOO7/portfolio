@@ -116,3 +116,11 @@ body {
     color: #fff;
 }
 
+.btn {
+    display: inline-block;
+    padding: 12px 28px;
+    background: var(--main-color);
+    
+}
+
+
