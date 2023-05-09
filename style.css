@@ -128,11 +128,13 @@ body {
     letter-spacing: 1px;
     text-decoration: none;
     font-weight: 600;
+    transition: .5s ease;
 }
 
 .btn:hover {
     background: transparent;
     color: var(--main-color);
+    border-color: var(--main-color);
 }
 
 
