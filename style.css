@@ -140,6 +140,8 @@ body {
 }
 
 .home .profession-container {
-    
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
