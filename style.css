@@ -141,11 +141,11 @@ body {
 
 .home .profession-container {
     position: absolute;
-    top: 0;
+    top: 50%;
     right: 0;
-    width: 768px;
-    height: 768px;
-    background: red;
+    transform: translateY(-50%);
+    width: 868px;
+    height: 868px;
     overflow: hidden;
 }
 
