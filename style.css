@@ -162,3 +162,17 @@ body {
     align-items: center;
 }
 
+.profession-box .profession {
+    position: absolute;
+    left: 0;
+    transform-origin: 434px;
+    transform: rotate(calc(360deg /4 * var(--i)));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profession i {
+    font-size: 38px;
+}
+
