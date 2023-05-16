@@ -170,9 +170,16 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: var(--main-color);
 }
 
 .profession i {
     font-size: 38px;
+}
+
+.profession h3 {
+    font-size: 32px;
+    line-height: 1;
+    font-weight: 600;
 }
 
