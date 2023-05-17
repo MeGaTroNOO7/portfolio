@@ -183,3 +183,10 @@ body {
     font-weight: 600;
 }
 
+.profession-box .circle {
+    width: 72%;
+    height: 72%;
+    background: red;
+    border: 3px solid;
+}
+
