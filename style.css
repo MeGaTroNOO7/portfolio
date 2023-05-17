@@ -187,6 +187,7 @@ body {
     width: 72%;
     height: 72%;
     background: red;
-    border: 3px solid;
+    border: 3px solid var(--main-color);
+    border-radius: 50%;
 }
 
