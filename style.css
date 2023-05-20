@@ -209,9 +209,9 @@ body {
     right: 0;
     width: 0;
     height: 0;
-    border-top: 384px solid blue;
-    border-right: 384px solid orangered;
-    border-bottom: 384px solid yellowgreen;
-    border-left: 384px solid red;
+    border-top: 450px solid blue;
+    border-right: 450px solid orangered;
+    border-bottom: 450px solid yellowgreen;
+    border-left: 450px solid red;
 }
 
