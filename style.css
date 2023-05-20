@@ -203,3 +203,15 @@ body {
     border-radius: 50%;
 }
 
+.profession-container .overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-top: 384px solid blue;
+    border-right: 384px solid orangered;
+    border-bottom: 384px solid yellowgreen;
+    border-left: 384px solid red;
+}
+
