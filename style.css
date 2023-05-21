@@ -24,7 +24,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 30px 7%;
+    padding: 20px 7%;
     background: transparent;
     display: flex;
     align-items: center;
@@ -144,8 +144,8 @@ body {
     top: 50%;
     right: 0;
     transform: translateY(-50%);
-    width: 868px;
-    height: 868px;
+    width: 910px;
+    height: 910px;
     overflow: hidden;
 }
 
@@ -209,9 +209,9 @@ body {
     right: 0;
     width: 0;
     height: 0;
-    border-top: 500px solid blue;
-    border-right: 500px solid orangered;
-    border-bottom: 500px solid yellowgreen;
-    border-left: 500px solid red;
+    border-top: 455px solid var(--main-color);
+    border-right: 455px solid var(--main-color);
+    border-bottom: 455px solid var(--main-color);
+    border-left: 455px solid transparent;
 }
 
