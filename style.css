@@ -13,6 +13,11 @@
     --main-color: #754ef9;
 }
 
+.dark-mode {
+    --primary-color: #0b061f;
+    --secondary-color: #fff;
+}
+
 body {
     background: var(--primary-color);
     color: var(--secondary-color) ;
