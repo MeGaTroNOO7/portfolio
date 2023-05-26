@@ -236,7 +236,7 @@ body {
         transform: translateX(-100px);
     }
     100% {
-        opacity: 0;
+        opacity: 1;
         transform: translateX(-100px);
     }
     
