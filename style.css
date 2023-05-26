@@ -43,6 +43,8 @@ body {
     font-weight: 600;
     cursor: default;
     margin-right: auto;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
 }
 
 .navbar a {
