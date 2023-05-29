@@ -91,6 +91,9 @@ body {
 .home-content h3 {
     font-size: 25px;
     line-height: .3;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+    animation-delay: .7s;
 }
 
 .home-content h1 {
