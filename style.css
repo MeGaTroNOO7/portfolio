@@ -253,7 +253,7 @@ body {
 
 @keyframes slideLeft {
     0% {
-        opacity: 1;
+        opacity: 0;
         transform: translateX(100px);
     }
     100% {
