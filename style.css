@@ -108,7 +108,7 @@ body {
 .home-content p {
     font-size: 16px;
     opacity: 0;
-    animation: slideLeft 1s ease forwards;
+    animation: slideRight 1s ease forwards;
     animation-delay: 1s;
 }
 
