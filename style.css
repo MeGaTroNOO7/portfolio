@@ -108,7 +108,7 @@ body {
 .home-content p {
     font-size: 16px;
     opacity: 0;
-    animation: slideRight 1s ease forwards;
+    animation: slideLeft 1s ease forwards;
     animation-delay: 1s;
 }
 
@@ -127,6 +127,9 @@ body {
     text-decoration: none;
     margin: 25px 15px 30px 0;
     transition: .5s ease;
+    opacity: 0;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: 1s;
 }
 
 .social-media a:hover {
