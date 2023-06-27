@@ -150,6 +150,9 @@ body {
     text-decoration: none;
     font-weight: 600;
     transition: .5s ease;
+    opacity: 0;
+    animation: slideTop 1s ease forwards;
+    animation-delay: 2s;
 }
 
 .btn:hover {
@@ -262,6 +265,18 @@ body {
     100% {
         opacity: 1;
         transform: translateX(0);
+    }
+    
+}
+
+@keyframes slideTop {
+    0% {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
     }
     
 }
