@@ -54,6 +54,9 @@ body {
     text-decoration: none;
     font-weight: 500;
     margin-right: 35px;
+    opacity: 0;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: calc(.2 * var(--i));
 }
 
 .navbar a.active::before {
@@ -181,6 +184,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    opacity: 0;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: 2.5s;
 }
 
 .profession-box .profession {
@@ -235,7 +241,11 @@ body {
     border-right: 455px solid var(--main-color);
     border-bottom: 455px solid var(--main-color);
     border-left: 455px solid transparent;
+    opacity: 0;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: 1.5s;
 }
+
 
 .home-img img {
     position: absolute;
@@ -281,14 +291,4 @@ body {
     
 }
 
-@keyframes slideTop {
-    0% {
-        opacity: 0;
-        transform: translateY(100px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
-    
-}
+
