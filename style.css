@@ -250,8 +250,8 @@ body {
 .home-img img {
     position: absolute;
     bottom: 0;
-    left: 0;
-    width: 100%;
+    right: 250px;
+    width: 20%;
     pointer-events: none;
 }
 
